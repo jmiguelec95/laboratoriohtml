@@ -1,0 +1,55 @@
+.container {
+  display: grid;
+  gap: 3rem;
+  grid-auto-rows: 30rem;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 25%));
+  justify-content: center;
+  width: 100%;
+}
+
+.element {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightblue;
+}
+
+.product-info {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.producto-name {
+    margin: 0;
+    color: #333;
+}
+
+.producto-price {
+    margin: 0;
+    color: #333;
+    font-weight: bold;
+}
+
+
+.footer-ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    row-gap: 10%;
+    column-gap: 15%;
+    padding: 3rem 0;
+}
+
+.footer-li {
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  height: 50px; 
+  padding: 0 15px; 
+  gap: 8px; 
+}
